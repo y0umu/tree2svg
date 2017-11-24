@@ -308,9 +308,15 @@ def main():
     outputname = _name[0]
     try:
         t = TreeVis(sys.argv[1])
-    except:
-        print("Cannot open file \"" + sys.argv[1] + "\"")
+    except FileNotFoundError:
+        print("No such file \"" + sys.argv[1] + "\"")
         return
+    except IndexError:
+        print("Error processing, invalid input file syntax?")
+        return
+    except:
+        raise
+        
     if len(sys.argv) == 2:
         outputname += ".svg"
     else: # len(sys.argv) == 3:
