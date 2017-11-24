@@ -30,7 +30,7 @@ As in "cooked wheaten food.txt", a tree description file is a text file encoded 
 ++意大利面(spaghetti)
 +包子/馒头类
 ++包子(steamed stuffed bun)
-++馒头(steamed stuffed bun, "Manjuu")
+++馒头(steamed bun, "Manjuu")
 ++窝窝头(steamed bread of corn)
 +饺子(Chinese dumpling, "Jiaozi")
 ; End of recipe
