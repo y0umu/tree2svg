@@ -300,7 +300,6 @@ def main():
         print("Usage: treevis.py <tree dedcription file> [output SVG file name]")
         
     if len(sys.argv) < 2 or len(sys.argv) > 3:
-        print(sys.argv)
         cmd_help()
         return
     
