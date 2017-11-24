@@ -1,0 +1,11 @@
+面食
++面条(Noodles)
+++炒面(Stir-Fried Noodles with Vegetables, "Chow Mein")
+++凉面(cold noodles in sauce)
+++意大利面(spaghetti)
++包子/馒头类
+++包子(steamed stuffed bun)
+++馒头(steamed stuffed bun, "Manjuu")
+++窝窝头(steamed bread of corn)
++饺子(Chinese dumpling, "Jiaozi")
+; End of recipe
