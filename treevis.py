@@ -94,7 +94,7 @@ def get_nth_depth_pxlen(nth_depth_nodes):
 ##################################################
 def get_svg_path_str(tree, node0, node1):
     '''Return the string in the "d" attribute of svg path widget '''
-    x0 = node0.x + tree.pxlens[node0.depth] + tree.const_pxlen0 / 2.0
+    x0 = node0.x + node0.pxlen + tree.const_pxlen0 / 2.0
     y0 = node0.y - tree.const_pxlen1 / 4.0
     x1 = node1.x
     y1 = node1.y - tree.const_pxlen1 / 4.0
