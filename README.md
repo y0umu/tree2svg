@@ -1,6 +1,6 @@
 # tree2svg
-A toy program written in python that turns a tree described in a text file into an SVG visible.
-Useful as a simple mindmap generator.
+A python program that turns a tree described in a text file into an SVG visible.
+Useful as a simple mindmap generator. You can also utilize it to illustrate your websites, papers, etc.
 
 # Requirements
 Python 3 
@@ -47,6 +47,5 @@ Lines representing nodes are arranged in the order as that in preorder traversal
 3. Alignment cannot be adjusted.
 
 # TODO
-1. Tidy up the code. Methods like TreeVis._pre_traversal are used in the early stages of coding, but not in the present code. 
+1. Rewrite the command line argument parsing interface using standard library argparse.
 2. A parser class may need implementing if I were to make the tree descrpition file more complex (and more flexible).
-3. I do have a feeling that I am still coding in C, therefore some improvements could be made to put it pythonic.
