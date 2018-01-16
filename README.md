@@ -11,7 +11,7 @@ python3 treevis.py tree_description_file.txt
 ```
 or
 ```
-python3 treevis.py tree_description_file.txt svg_name.svg
+python3 treevis.py tree_description_file.txt -o svg_name.svg
 ```
 
 For Unix, Linux users:
