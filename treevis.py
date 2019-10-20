@@ -7,7 +7,7 @@ Traslate your tree description file into SVG.
 import os # os.path.basename
 import argparse
 
-from treevisualizer import TreeVis
+from treevis.treevisualizer import TreeVis
 ##################################################
 # Command line interface & file input processing
 def main():

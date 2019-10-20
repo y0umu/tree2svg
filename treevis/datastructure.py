@@ -3,7 +3,7 @@ datastructure.py
 Implementing the underlying data structure.
 Currently Node is implemented here.
 '''
-from util import isascii
+from .util import isascii
 ##################################################
 #              Tree related classes
 class Node:

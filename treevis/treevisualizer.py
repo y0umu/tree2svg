@@ -4,7 +4,7 @@ Implementation of the TreeVis class which constructs the SVG file.
 '''
 from itertools import takewhile
 from xml.etree.ElementTree import Element, SubElement, ElementTree
-from datastructure import Node
+from .datastructure import Node
 ##################################################
 def get_pluses_num(string):
     '''Return how many pluses "+" are there in the beggining of a string'''
